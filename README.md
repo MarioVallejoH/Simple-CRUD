@@ -1,16 +1,13 @@
-# practive
+# Test-App (practive)
 
 A new Flutter project.
 
-## Getting Started
+Documentation for this App maybe it's not the best, i'll work in that if it's necessary. 
 
-This project is a starting point for a Flutter application.
+Screens (`lib/Screens/`) for app are divided in components (`lib/Screens/Screen/components`), to make app easy to read and understand, components who are commonly used are in folder `lib/components/`.
 
-A few resources to get you started if this is your first Flutter project:
+Bloc folder (`bloc/`) contain two files, one of them are `lib/bloc/validations.dart` who can be used to validate form fields, the other one `lib/bloc/bloc.dart` contain a Bloc class to manage app data using streams.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Models folder (`lib/models/`) contain classes to work with JSON files from server.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Providers folder (`lib/providers/`) contain class and methods to use APIs from server.
